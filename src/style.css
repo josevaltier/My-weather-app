@@ -11,25 +11,18 @@ h3 {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 50px;
 }
 h2 {
   font-size: 70px;
   position: relative;
-  top: 1px;
-  left: 39px;
+  left: 10px;
   margin-bottom: 0;
 }
 
 form {
-  border-radius: 30px;
+  border-radius: 40px;
   line-height: 30px;
-}
-hr {
-  border: none;
-  border-top: 3px double #379956;
-  color: #379956;
-  max-width: 780px;
 }
 
 .btn-success {
@@ -37,8 +30,6 @@ hr {
   line-height: 1.4;
 }
 
-.current-city,
-.current-data,
 .other-info {
   border: solid;
   border-width: 2px;
@@ -49,33 +40,41 @@ hr {
 .current-city {
   text-align: center;
   margin: 10px 0;
+
   padding: 10px 0 15px 0;
+}
+
+.main-info:hover {
+  background-color: rgba(159, 211, 199, 0.5);
+  border-radius: 5px;
 }
 
 .current-emoji {
   font-size: 100px;
-  position: relative;
-  top: 1px;
-  left: 31px;
+  display: block;
+  margin: 0 auto;
 }
 
-.current-data {
+.current-emoji-temp:hover {
+  background-color: rgba(159, 211, 199, 0.5);
+  border-radius: 5px;
+}
+.humidity-wind {
   text-align: center;
   font-size: 20px;
-  margin: 0;
-}
-.current-data-item {
+  margin-left: 0px;
   padding: 25px;
 }
 
-.current-data-item:hover {
+.humidity-wind:hover {
   background-color: rgba(159, 211, 199, 0.5);
   border-radius: 5px;
 }
 
 .other-info {
+  display: block;
   padding: 10px;
-  margin: 0;
+  margin: 0 auto;
 }
 .next-days-subtitle {
   font-size: 30px;
@@ -105,7 +104,7 @@ hr {
 }
 
 .card-body {
-  max-width: 120%;
+  max-width: 180%;
   background-color: #9fd3c7;
 }
 
